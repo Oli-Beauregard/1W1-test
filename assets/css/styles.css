@@ -1,1 +1,32 @@
 @import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: brown;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  border: 2px solid white;
+  padding: 2rem;
+  transition: 350ms ease-in-out;
+}
+
+li:hover {
+  /* transform: translate(30px, 30px); */
+  transform: scale(1.2);
+  transform: rotateZ(360deg);
+}
+
+a {
+  color: aliceblue;
+  font-size: 2rem;
+  transition: color 350 ms ease-in-out;
+}
+
+a:hover {
+  color: gold;
+}
